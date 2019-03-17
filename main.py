@@ -76,6 +76,18 @@ class Edge:
 # def home():
 # 	return render_template('index.html')
 
+# @app.route("/show")
+# def home1():
+# 	return render_template('index.html')
+
+# @app.route("/create")
+# def home2():
+# 	return render_template('index.html')
+
+# @app.route("/roots")
+# def home3():
+# 	return render_template('index.html')
+
 @app.route("/submit_tree", methods=['POST'])
 def submit_tree():
 	print("---------post")
